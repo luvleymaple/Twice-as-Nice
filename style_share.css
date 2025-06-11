@@ -1,0 +1,58 @@
+body {
+    overflow-x: hidden;
+  }
+
+  #first_div, #second_div {
+    padding: 40px;
+    background-color: #FFF8F0;
+    max-width: 500px;
+    width: 100%;
+    border: 1px solid #dc5216;
+    border-radius: 15px;
+    margin: 40px auto;
+    box-shadow: 0 5px 7px #dc511655;
+  }
+
+  .request {
+    color: #dc5216;
+    font-size: 1.7rem;
+    font-family: "Merienda";
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  label {
+    font-size: 15px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .btns {
+    background-color: #dc5216;
+    color: #fefae0;
+    border-radius: 15px;
+    padding: 0.5rem 1rem;
+    border: none;
+  }
+
+  .btns:hover {
+    background-color: #b64512;
+  }
+
+  .btn-group-custom {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .form-section {
+    margin-top: 100px;
+  }
+
+  @media (max-width: 768px) {
+    .btn-group-custom {
+      flex-direction: column;
+    }
+  }

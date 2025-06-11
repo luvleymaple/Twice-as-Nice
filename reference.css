@@ -1,0 +1,39 @@
+
+    body {
+      background: linear-gradient(to right, #fff8f0,  #dc51169c);
+    }
+
+    .reference-container {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      padding: 40px;
+    }
+
+    .reference-title {
+      font-size: 1.7rem;
+      color: #dc5216;
+      font-family: 'Merienda';
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+
+    .reference-list li {
+      list-style-type:square;
+      font-family: 'Ubuntu';
+      font-weight: 400;
+      font-size: 15px;
+      margin-bottom: 15px;
+      line-height: 1.6;
+    }
+
+     .reference-list li a {
+      color: #dc5216;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .reference-list li a:hover {
+      text-decoration: underline;
+      color: #000;
+    }
